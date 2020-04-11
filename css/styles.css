@@ -1,0 +1,531 @@
+/* header*/
+@font-face {
+    font-family: 'Gilroy-Medium ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
+}
+html{
+    font-family: 'Gilroy-Medium ☞', serif;
+    font-weight:normal;
+    height: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;!important;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+.navbar-nav{
+   margin-left: 60%;
+}
+.nav-item{
+    padding-left: 30px;
+}
+.search input{
+    width: 100px;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: black;
+    margin-left: 5px;
+    background-color: #f9f9f9;
+}
+
+/* главная */
+
+.cafedral, .nstu{
+    position: absolute;
+    max-width: 900px;
+    max-height: 95px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 15px;
+
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 64px;
+    text-align: justify;
+    text-transform: uppercase;
+
+    color: #0D0D0D;
+
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.nstu{
+    font-size: 24.3px;
+    margin-top: 55px;
+}
+.about{
+    position: absolute;
+    max-width: 900px;
+    height: 91px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 130px;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: justify;
+    text-transform: uppercase;
+
+    color: #303030;
+}
+.cards{
+    position: absolute;
+    height: 598px;
+    max-width: 900px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 250px;
+    padding-left: 18px;
+    padding-bottom: 28px;
+}
+
+/*диагностика оборудования*/
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.item{
+    width: 206px;
+    height: 44px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border: 2px solid rgba(160, 160, 160, 0.9);
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(160, 160, 160, 0.9);
+    padding-top: 6px;
+    margin-bottom: 5px;
+}
+
+.small{
+    padding-top: 12px;
+}
+.active{
+    border: 2px solid #5A5A5A;
+    color: #303030;
+}
+.item:hover{
+    border: 2px solid #5A5A5A;
+    color: #303030;
+}
+.content{
+    padding-bottom: 150px;
+}
+.head{
+    position: absolute;
+    max-width: 1000px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 94px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.container{
+    position: absolute;
+    height: 300px;
+    max-width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.left, .right{
+    width: 600px;
+
+    line-height: 26px;
+}
+.left{
+    background: rgba(160, 160, 160, 0.9);
+    text-align: center;
+    padding: 75px;
+    color: white;
+}
+.right{
+    font-size: 16px;
+    line-height: 1.2;
+}
+.document{
+    position: absolute;
+    max-width: 800px;
+    height: 52px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 590px;
+    margin-bottom: 150px;
+    border: 1px solid #0D0D0D;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 9px;
+
+    color: #000000;
+
+}
+.design_item{
+    background-color: #f9f9f9;
+    color: black;
+    text-align: left;
+}
+.slider{
+    position: absolute;
+    max-width: 539px;
+    height: 300px;
+
+    background: linear-gradient(0deg, rgba(19, 19, 19, 0.68), rgba(83, 83, 83, 0.68)),url("../images/slider.png"), #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 85px;
+}
+/*научно-технические услуги*/
+
+.directions{
+    position: absolute;
+    max-width: 994px;
+    height: 54px;
+    margin: auto;
+    left: 0;
+    right: 0;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+.details_item{
+    position: absolute;
+    max-width: 605px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+.open{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 994px;
+    margin-top: 37px;
+    margin-bottom: 50px;
+}
+.details_container{
+    font-size: 14px;
+    line-height: 23px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.top{
+    background-color: #303030;
+    color: white;
+    padding: 20px 52px 16px 18px;
+}
+.bottom{
+    padding: 20px 52px 16px 18px;
+    background-color: white;
+}
+.card{
+    background-color: #f9f9f9;
+    margin-top: 37px;
+    border: none;
+    max-width: 605px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding-bottom: 20px;
+}
+
+/*наши разработки*/
+
+.devs{
+    max-width: 1200px;
+    height: 84px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 230px;
+    padding-bottom: 50px;
+}
+.devs-item{
+    max-width: 250px;
+    height: 206px;
+    margin-right: 10px;
+}
+.rect{
+    background-color: #5A5A5A;
+    color: white;
+    max-width: 250px;
+    font-size: 14px;
+    padding: 11px 21px 19px 21px;
+    text-align: center;
+}
+.big{
+    padding: 5px 34px 4px 34px;
+}
+/*разработки отдельно*/
+.dev-content{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 1341px;
+    height: 178px;
+    margin-top: 170px;
+    padding-bottom: 50px;
+}
+.block{
+    position: absolute;
+    background-color: #5A5A5A;
+    color: white;
+    padding: 20px 44px 21px 44px;
+}
+.dev-content p{
+    margin-top: 108px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.dev-content img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.dev-links{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    padding-bottom: 50px;
+}
+.dev-links a{
+    color: black;
+    margin-right: 15px;
+    font-weight: bold;
+}
+/*испытания*/
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1300px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    /*flex-wrap: wrap;*/
+    margin-top: 270px;
+    padding-bottom: 50px;
+
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    max-width: 415px;
+}
+.tab-header{
+    color: white;
+    text-align: center;
+    background-color: #5A5A5A;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.tab-content{
+    text-align: center;
+    background-color: #C4C4C4;
+    padding: 20px;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.tab-content:hover{
+    font-weight: bold;
+    color: black;
+}
+.last{
+    border-bottom: 0;
+}
+.table table{
+    border-spacing: 200px 1px;
+    border-collapse: separate;
+    max-width: 1200px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+}
+.bold{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.under{
+    position: absolute;
+    max-width: 1200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 600px;
+    padding-bottom: 50px;
+
+}
+.vi-content{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 100px;
+}
+.dev-vi-content{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 1341px;
+    height: 178px;
+    margin-top: 170px;
+    padding-bottom: 50px;
+}
+.dev-vi-content p{
+    margin-top: 108px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.text{
+    padding-top: 60px;
+}
+/*переводы*/
+.translate{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 1000px;
+    height: 178px;
+    margin-top: 170px;
+}
+.translate p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom:50px;
+}
+.translate-content{
+    padding-bottom: 100px;
+}
+/*контакты*/
+.contacts-content{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-top: 80px;
+}
+/*лицензии*/
+.li-content {
+    position: absolute;
+    max-width: 1000px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 70px;
+}
+.li-content a{
+    color: black;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.li-content a:hover{
+    color: #5A5A5A;
+}
+/*footer*/
+.content_container {
+    min-height: calc(100vh - 90px);
+}
+.footer_table table{
+    max-width: 500px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
+.footer {
+    margin-top: 300px;
+    height: 90px;
+    padding-bottom: 20px;
+}
+
+.footer_left{
+    font-size: 13px;
+    line-height: 18px;
+    text-align: right;
+    border-right: 1px solid #000;
+    padding-right: 12px;
+}
+.footer_right{
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 12px;
+}
+.description{
+    text-transform: none;
+    margin-top: 150px;
+}

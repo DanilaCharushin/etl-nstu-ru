@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width: device-width">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Наши разработки</title>
+</head>
+<body>
+	<div id="link">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="../index.html"><img src="../img/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav form-inline my-2 my-lg-0 ">
+					<li class="nav-item nav-link">
+						<div class="search">
+                        <script type="text/javascript" src="search.js"></script>
+							<form method="POST" name="finding">
+								<input type="text" id="holder" name="sub" size="20" placeholder="поиск" 
+								onkeydown="document.getElementById('holder').onkeypress = function($) {
+								 if ($.keyCode === 13) {
+								   dolt();
+								 }
+							   }">
+							</form>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="licenses.html" style="color: black"><img src="../img/licenses.png" style="padding-right: 17px">лицензии <span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="contacts.html" style="color: black"><img src="../img/contacts.png" style="padding-right: 17px">контакты</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<hr style="border-top: 1px solid #9C9C9C"/>
+	</div>
+	<div class="content">
+		<div class="items">
+			<a href="diagnostics.html" style="text-decoration: none"><div class="item">диагностика электрооборудования</div></a>
+			<a href="design.html" style="text-decoration: none"><div class="item small">проектирование</div></a>
+			<a href="services.html"style="text-decoration: none"><div class="item small">научно-технические услуги</div></a>
+			<a href="development.html"style="text-decoration: none"><div class="item small active">наши разработки</div></a>
+			<a href="trials.html"style="text-decoration: none"><div class="item">испытания технических средств</div></a>
+			<a href="translation.html" style="text-decoration: none"><div class="item small">переводческие услуги</div></a>
+		</div>
+		<div class="head">
+			Наши разработки
+		</div>
+		<div class="dev-content">
+			<div class="block">Комплект аппаратуры для измерения значений наведенного напряжения</div>
+			<p style="text-align: left;">Комплект аппаратуры для измерения значений наведенного напряжения предназначен для повышения электробезопасности производства работ под наведенным напряжением на воздушных линиях электропередачи.<br><br> При
+
+				использовании на месте выполнения работ комплект аппаратуры позволяет измерить значения наведенного напряжения и напряжения прикосновения к металлическим заземленным частям, что позволяет бригаде оценить уровень опасности и применить соответствующие меры по обеспечению электробезопасности.<br><br>
+
+				Комплект аппаратуры для измерения значений наведенного напряжения состоит из двух независимых приборов:<br><br>
+
+				• Штанга-измеритель наведенного напряжения (ШИН-20);<br><br>
+
+				• Штанга-измеритель напряжения прикосновения (ШИП-5).<br><br>
+
+				Штанга-измеритель наведенного напряжения предназначена для измерения значений наведенного напряжения на грозозащитных тросах и отключенных проводах воздушных линиях электропередачи напряжением 0,4-220 кВ, обусловленного электрическим и/или магнитным влиянием соседних воздушных линий. Диапазон измерения от 2 В до 20 кВ. Измерения наведенного напряжения на проводах отключенных ВЛ могут проводиться при любых схемах заземления, включая отсутствие заземления. Измерения ШИН-20 проводятся с подъемом на высоту. Модульная конструкция ШИН-20 позволяет выбрать оптимальную длину штанги (2150 или 3000 мм) для проведения измерений как с опоры ВЛ, так и с автоподъемника.
+
+				<br><br>Штанга-измеритель напряжения прикосновения предназначена для измерения ожидаемого напряжения прикосновения к открытым проводящим частям опоры, заземляющим электродам, передвижным механизмам, на которые заземлены провода и грозозащитные тросы отключенной ВЛ. Диапазон измерения от 2 В до 5 кВ. Измерения ШИП производятся без подъема на высоту.
+			</p>
+			<div class="dev-links">
+				<a href="../docs/Svidetelstvo_ob_utverzhdenii_tipa_SI.pdf" target="_blank" style="text-decoration: none" href="#">Свидетельство об утверждении типа СИ</a>
+				<a href="../docs/RE_rukovodstvo_po_expluatatsii.pdf" target="_blank"style="text-decoration: none" href="#">Руководство по эксплуатации</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width: device-width">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Диагностика электрооборудования</title>
+</head>
+	<body>
+	<div id="link">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="../index.html"><img src="../img/logo.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav form-inline my-2 my-lg-0 ">
+					<li class="nav-item nav-link">
+						<div class="search">
+                        <script type="text/javascript" src="search.js"></script>
+							<form method="POST" name="finding">
+								<input type="text" id="holder" name="sub" size="20" placeholder="поиск" 
+								onkeydown="document.getElementById('holder').onkeypress = function($) {
+								 if ($.keyCode === 13) {
+								   dolt();
+								 }
+							   }">
+							</form>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="licenses.html" style="color: black"><img src="../img/licenses.png" style="padding-right: 17px">лицензии <span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="contacts.html" style="color: black"><img src="../img/contacts.png" style="padding-right: 17px">контакты</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<hr style="border-top: 1px solid #9C9C9C"/>
+	</div>
+	<div>
+		<div class="content_container">
+	<div class="content">
+		<div class="items">
+			<a href="diagnostics.html" style="text-decoration: none"><div class="item active">диагностика электрооборудования</div></a>
+			<a href="design.html" style="text-decoration: none"><div class="item small">проектирование</div></a>
+			<a href="services.html"style="text-decoration: none"><div class="item small">научно-технические услуги</div></a>
+			<a href="development.html"style="text-decoration: none"><div class="item small">наши разработки</div></a>
+			<a href="trials.html"style="text-decoration: none"><div class="item">испытания технических средств</div></a>
+			<a href="translation.html"style="text-decoration: none"><div class="item small">переводческие услуги</div></a>
+		</div>
+		<div class="head">
+			Техническое диагностирование электроустановок
+		</div>
+		<div class="container">
+			<div class="left">Электротехническая лаборатория допущена в эксплуатацию и зарегистрирована в Сибирском управлении Федеральной службы по экологическому,
+				технологическому и атомному надзору с правом выполнения испытаний, измерений и проверок электрооборудования и электроустановок напряжением до 220 кВ.</div>
+			<div class="right"><p>1) Визуальный осмотр</p><p> 2) Испытания и измерения параметров заземляющего устройства</p><p>
+				3) Проверка цепи фаза-нуль (цепи зануления) в электроустановках до 1 кВ с глухим заземлением нейтрали</p><p>
+				4) Испытания устройств защитного отключения (УЗО)</p><p> 5) Измерение сопротивления изоляции силовых кабельных линий,
+				электрических аппаратов, вторичных цепей и электропроводки </p> <p>6) Измерение наведённых напряжений на ВЛ 0,4-220 кВ</p><p>
+				7) Измерение параметров систем молниезащиты</p> <p>8) Испытание электрооборудования повышенным напряжением промышленной частоты</p></div>
+		</div>
+		<a href="../docs/Svidetelstvo_31-28-2018_ot_5_marta_2018_goda.pdf" target="_blank"><div class="document">Свидетельство о регистрации лаборатории №31-28-2018 от 05 марта 2018 года</div></a>
+	</div>
+		</div>
+		<div class="footer">
+			<hr style="border-top: 1px solid #9C9C9C"/>
+			<div class="footer_table">
+				<table>
+					<tr >
+						<td class="footer_left">Новосибирский государственный <br>технический университет</td>
+						<td class="footer_right"><img src="../img/phone.png"> 8 (383) 315-34-83</td>
+					</tr>
+					<tr >
+						<td class="footer_left">Факультет Энергетики</td>
+						<td class="footer_right"><img src="../img/mail.png"> etl@corp.nstu.ru</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
